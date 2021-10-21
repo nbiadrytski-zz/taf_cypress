@@ -15,6 +15,6 @@
   },
   "watchForFileChanges": false,
   "env": {
-    "URL": "https://docs-portal.staging.cloud-native.drdev.io"
+    "URL": "https://site.staging.com"
   }
 }
