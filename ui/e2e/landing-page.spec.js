@@ -19,13 +19,13 @@ context("Landing page", () => {
     // Title
     shouldHaveText(
       selectors.landingPage.title,
-      "Welcome to DataRobot Documentation"
+      "Welcome to DR Documentation"
     );
 
     // Subtitle
     shouldHaveText(
       selectors.landingPage.subtitle,
-      "Find all the information you need to succeed with DataRobot, in a style that suits you best."
+      "Find all the information you need to succeed with DR, in a style that suits you best."
     );
   });
 
@@ -38,12 +38,12 @@ context("Landing page", () => {
       {
         expectedHref: `${pathPrefix}/platform`,
         expectedTitle: "Platform",
-        expectedCaption: "Docs for UI-based DataRobot use",
+        expectedCaption: "Docs for UI-based DR use",
       },
       {
         expectedHref: `${pathPrefix}/api`,
         expectedTitle: "API",
-        expectedCaption: "Docs for code-based DataRobot use",
+        expectedCaption: "Docs for code-based DR use",
       },
       {
         expectedHref: `${pathPrefix}/tutorials`,
@@ -53,12 +53,12 @@ context("Landing page", () => {
       {
         expectedHref: `${pathPrefix}/notebooks`,
         expectedTitle: "Notebooks",
-        expectedCaption: "Docs for DataRobot Zepl notebooks",
+        expectedCaption: "Docs for DR dd notebooks",
       },
       {
         expectedHref: `${pathPrefix}/docs/glossary/index.html`,
         expectedTitle: "Glossary",
-        expectedCaption: "DataRobot-specific terms defined",
+        expectedCaption: "DR-specific terms defined",
       },
     ];
 
