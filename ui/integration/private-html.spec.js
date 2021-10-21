@@ -19,11 +19,11 @@ import {
 } from "../../_cypress/support/commands";
 
 context("Private html", () => {
-  it("checks header DataRobot icon and navigation items", () => {
+  it("checks header DR icon and navigation items", () => {
     goToUrl(constants.privateUrls.integrationUrl);
 
-    // Check DataRobot logo
-    attributeValueShouldBe(selectors.header.drLogo, "title", "DataRobot docs");
+    // Check DR logo
+    attributeValueShouldBe(selectors.header.drLogo, "title", "DR docs");
     attributeValueShouldBe(selectors.header.drLogo, "href", "index.html");
     attributeValueShouldContain(
       `${selectors.header.drLogo} img`,
