@@ -18,16 +18,16 @@ context("Public html", function () {
 
     const headerLinks = [
       {
-        href: "https://university.datarobot.com",
-        elementText: "DataRobot University",
+        href: "https://university.site.com",
+        elementText: "Site University",
       },
       {
-        href: "https://community.datarobot.com",
+        href: "https://community.site.com",
         elementText: "Community",
       },
       {
-        href: "https://www.datarobot.com",
-        elementText: "DataRobot.com",
+        href: "https://www.site.com",
+        elementText: "Site.com",
       },
     ];
 
@@ -50,15 +50,15 @@ context("Public html", function () {
 
     const footerLinks = [
       {
-        href: "https://www.datarobot.com/legal/",
+        href: "https://www.site.com/legal/",
         title: "Legal",
       },
       {
-        href: "https://www.datarobot.com/privacy/",
+        href: "https://www.site.com/privacy/",
         title: "Privacy",
       },
       {
-        href: "https://www.datarobot.com/trust-package/",
+        href: "https://www.site.com/trust-package/",
         title: "Trust",
       },
     ];
